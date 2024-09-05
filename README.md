@@ -1,11 +1,7 @@
-## NvChad theme plugin
-
-- This plugin's a whole re-write of Norcalli's plugin.
-- It should be used along with [NvChad](https://github.com/NvChad/NvChad) for best experience.
-- Non NvChad users can have the nvconfig module on the path
+## Frusavim theme engine
 
 ## Supported Integrations
-
+<u>Disclaimer</u>: This is based on nvhcad's base46 plugin.
 - Bufferline.nvim
 - Cmp.nvim
 - Codeactionmenu
@@ -26,11 +22,6 @@
 - Lsp Semantic tokens
 - Trouble.nvim 
 - Whichkey.nvim
-
-## Configuration
-
-- Base46 is configured by [nvconfig](https://github.com/NvChad/ui/blob/v2.5/lua/nvconfig.lua) in your path. 
-- Read the [themeing docs](https://nvchad.com/docs/config/theming)
 
 ## Highlight command
 
@@ -149,16 +140,6 @@ M = require("base46").override_theme(M, "abc")
 
 return M
 ```
-
-## Credits
-
-- [@LeonHeidelbach](https://github.com/LeonHeidelbach) for making [color functions!](https://github.com/LeonHeidelbach/lua_color_tools) which we use in base46.
-
-## Contribute
-
-- Send PR in the https://github.com/NvChad/base46/tree/v2.5/lua/base46/themes
-
-### Testing your theme
 
 - Just place your theme file in your `/lua/themes` folder
 - And select the theme with theme switcher or change in chadrc
